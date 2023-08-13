@@ -1,0 +1,40 @@
+.navbar{
+    font-family: yekan;
+}
+.logo img{
+    width: 2.5rem;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 8rem;
+    align-items: center;
+    margin: 0;
+}
+
+li{
+    transition: all 0.2s linear;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button{
+}
+
+li:hover{
+    color: orange;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../../../public/Yekan.woff);
+}
