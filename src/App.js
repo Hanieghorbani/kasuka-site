@@ -7,6 +7,9 @@ import Features from "./Features/Features";
 import Service from "./services/Service";
 import Cta from "./Cta/Cta";
 import Portfolio from "./Portfolio/Portfolio";
+import Count from "./Count/Count";
+import Testimonials from "./Testimonials/Testimonials";
+import Team from "./Team/Team";
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
      <Service />
      <Cta/>
      <Portfolio/>
+     <Count/>
+     <Testimonials/>
+     <Team/>
+
      <br />
      <br />
      <br />
