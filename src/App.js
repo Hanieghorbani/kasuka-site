@@ -5,6 +5,8 @@ import About from './About/About';
 import Client from "./Client/Client";
 import Features from "./Features/Features";
 import Service from "./services/Service";
+import Cta from "./Cta/Cta";
+import Portfolio from "./Portfolio/Portfolio";
 
 function App() {
   return (
@@ -14,6 +16,14 @@ function App() {
      <Client />
      <Features />
      <Service />
+     <Cta/>
+     <Portfolio/>
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
      <br />
      <br />
      <br />
