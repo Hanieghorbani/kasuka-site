@@ -1,5 +1,6 @@
 .navbar{
     font-family: yekan;
+    background: #000000dd;
 }
 .logo img{
     width: 2.5rem;
@@ -10,7 +11,7 @@
     font-family: sans-serif;
 }
 
-ul{
+.ul-navbar{
     list-style: none;
     display: flex;
     direction: rtl;
@@ -21,16 +22,13 @@ ul{
     margin: 0;
 }
 
-li{
+.ul-navbar li{
     transition: all 0.2s linear;
     cursor: pointer;
     font-weight: bold;
 }
 
-button{
-}
-
-li:hover{
+.ul-navbar li:hover{
     color: orange;
 }
 

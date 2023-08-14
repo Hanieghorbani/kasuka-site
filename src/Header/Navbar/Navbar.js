@@ -8,7 +8,7 @@ export default function Navbar() {
            <img src="imgs/logo-kasuka.png"/>
         </div>
         
-            <ul className=''>
+            <ul className='ul-navbar'>
                 <li>خانه</li>
                 <li>درباره ما</li>
                 <li>خدمات</li>
