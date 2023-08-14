@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import About from './About/About';
 import Client from "./Client/Client";
 import Features from "./Features/Features";
+import Service from "./services/Service";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <About />
      <Client />
      <Features />
+     <Service />
      <br />
      <br />
      <br />
