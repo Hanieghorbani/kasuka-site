@@ -42,7 +42,9 @@
     src: url(../../../public/Yekan.woff);
 }
 
-@media screen and (max-width: 920px)  {
+
+
+@media screen and (max-width: 1000px)  {
    .ul-navbar{
     display: none;
    }

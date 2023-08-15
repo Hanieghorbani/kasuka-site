@@ -25,6 +25,12 @@
     src: url(../../public/Yekan.woff);
 }
 
+@media screen and (max-width: 1000px) {
+   .boxs-header{
+    flex-wrap: wrap;
+   }
+}
+
 @media screen and (max-width: 920px) {
     .header {
         height: auto;
