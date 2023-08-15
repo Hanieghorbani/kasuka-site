@@ -33,7 +33,17 @@
     color: orange;
 }
 
+.bi-list{
+    cursor: pointer;
+}
+
 @font-face {
     font-family: yekan;
     src: url(../../../public/Yekan.woff);
 }
+
+@media screen and (max-width: 920px)  {
+   .ul-navbar{
+    display: none;
+   }
+ }

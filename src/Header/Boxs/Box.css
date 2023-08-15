@@ -1,0 +1,17 @@
+.box-header:hover{
+   border-color: #ffce3b !important;
+}
+
+.box-header p:hover{
+   color: #ffce3b !important;
+}
+
+.box-header p{
+   transition: all 0.4s ease;
+   cursor: pointer; 
+}
+
+.box-header{
+   transition: all 0.4s ease;
+   padding: 2.5rem !important;
+}

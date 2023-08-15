@@ -10,6 +10,8 @@ import Portfolio from "./Portfolio/Portfolio";
 import Count from "./Count/Count";
 import Testimonials from "./Testimonials/Testimonials";
 import Team from "./Team/Team";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -24,20 +26,9 @@ function App() {
      <Count/>
      <Testimonials/>
      <Team/>
+     <Contact/>
+     <Footer/>
 
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
     </div>
   );
 }

@@ -21,7 +21,8 @@ export default function Navbar() {
                 <li>تماس با ما</li>
             </ul>
         
-        <button className='btn btn-outline-warning '>شروع</button>
+        <button className='btn btn-outline-warning d-none d-lg-block'>شروع</button>
+        <i className='bi bi-list d-lg-none fs-2'></i>
     </div>
   )
 }
