@@ -1,0 +1,22 @@
+.team-container {
+   direction: rtl;
+}
+
+.card-team img{
+    width: 100%;
+}
+
+.card-team {
+    width: 23%;
+}
+
+@media screen and (max-width: 900px) {
+    .card-team{
+        width: 60%;
+        margin-bottom: 3rem;
+    }
+
+    .card-team img{
+        width: 100%;
+    }
+}

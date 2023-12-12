@@ -1,0 +1,23 @@
+.testimonials-container{
+    height: 65vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.755),rgba(0, 0, 0, 0.73)),url(../../public/imgs/testimonials-bg.jpg) no-repeat center;
+}
+
+.img-testimonials{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+
+@media screen and (max-width: 900px) {
+    .testimonials-container{
+        height: auto;
+        padding: 3rem 0;
+    }
+    .img-testimonials{
+        height: 150px;
+        width: 150px;
+    }
+}

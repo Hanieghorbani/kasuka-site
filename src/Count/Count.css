@@ -1,0 +1,40 @@
+.count-container{
+    margin: 10rem 0;
+}
+.count-content{
+    direction: rtl;
+}
+.img-count{
+    height: 450px;
+}
+
+.cardCount-container{
+    width: 45%;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+    .bi-emoji-smile {
+       font-size: 3.5rem !important;
+    }
+
+    .cardCount-container h1{
+       font-size: 3rem;
+    }
+
+    .cardCount-container p{
+        font-size: 1.5rem;
+    }
+
+    .count-content h1{
+        font-size: 3rem !important;
+    }
+
+    .count-content p{
+        font-size: 1.5rem;
+    }
+
+    .cardCount-container{
+        width: 100%;
+    }
+}

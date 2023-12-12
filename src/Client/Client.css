@@ -1,0 +1,38 @@
+.client-row img{
+ width: 65%;
+ opacity: 0.5;
+ filter: grayscale(100);
+ transition: all 0.2s linear;
+}
+
+.client-row div{
+    display: flex;
+    justify-content: center;
+}
+
+.client-row img:hover{
+    filter: grayscale(0); 
+    opacity: 1;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots span{
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: rgb(172, 172, 172);
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 920px) {
+ 
+    .ul-about{
+        text-align: start;
+    }
+}

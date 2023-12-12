@@ -1,0 +1,35 @@
+.contact-container iframe{
+  height: 250px;
+}
+
+.contact-container{
+    direction: rtl;
+    margin-top: 10rem;
+}
+
+.info-box i{
+   width: 44px;
+   height: 44px;
+   font-size: 20px;
+}
+
+.input-box input{
+  margin-bottom: 2rem;
+}
+
+.input-box input:focus,
+.input-box textarea:focus{
+   outline: none !important;
+   box-shadow: none !important;
+   border: 1px solid orange !important;
+}
+
+.row-input{
+  width: 103%;
+}
+
+@media screen and (max-width: 900px) {
+  .info-box{
+    width: 90%;
+  }
+}

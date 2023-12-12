@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: rgb(255, 166, 0);
+    margin: 10px;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../public/Yekan.woff);
+}

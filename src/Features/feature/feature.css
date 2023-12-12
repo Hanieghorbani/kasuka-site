@@ -1,0 +1,36 @@
+.feature-content{
+    direction: rtl;
+}
+
+.feature-content h5{
+    color: rgb(62, 62, 62);
+    font-weight: bold;
+}
+
+.feature-content p{
+    font-size: 0.9rem;
+}
+
+.icon-feature{
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width: 920px) {
+  .feature-content p{
+    font-size: 1.2rem !important;
+  }
+
+  .feature-content h5{
+    font-size: 1.6rem !important;
+  }
+
+  .icon-feature{
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .feature-img{
+    }
+}

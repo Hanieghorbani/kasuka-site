@@ -1,0 +1,44 @@
+.content-about{
+    direction: rtl;
+    font-weight: bold;
+    color: rgb(91 91 91);
+}
+
+.pMain-content{
+    text-align: justify;
+}
+
+.ul-about{
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.ul-about li{
+    padding: 0 0 0px 87px;
+}
+
+.ul-about li i{
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 920px) {
+ 
+    .ul-about{
+        text-align: start;
+    }
+    .content-about {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+ 
+    .ul-about{
+        width: 123%;
+    }
+
+}
+
+

@@ -1,0 +1,30 @@
+.servic-content{
+    direction: rtl;
+    margin: 7rem 0;
+}
+
+.title{
+    border-top: 2px solid rgb(255, 166, 0);
+    position: relative;
+    width: 15%;
+}
+
+.title p{
+    position: absolute;
+    top: -26px;
+}
+
+.grid-serv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-serv{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
